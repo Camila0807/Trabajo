@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Carrasco Coaquera</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 0;
+            background-image: url('https://www.unfv.edu.pe/eupg/images/maestrias/ciencias_empresa/administracion/Postgrado_Administracion_MBA_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            color: #1a1a2e;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .about-me {
+            background-color: #0f3460;
+            padding: 50px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .about-me h2 {
+            font-size: 2.5em;
+            color: #e94560;
+            margin-bottom: 20px;
+        }
+
+        .about-me p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1em;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #162447;
+            border-radius: 10px;
+        }
+
+        .info div {
+            text-align: left;
+        }
+
+        .courses {
+            width: 80%;
+            max-width: 1000px;
+            padding: 50px;
+            text-align: center;
+            background-color: #0f3460;
+            border-radius: 10px;
+        }
+
+        .courses h2 {
+            font-size: 2.5em;
+            color: #e94560;
+            margin-bottom: 40px;
+        }
+
+        .course-item {
+            margin-bottom: 10px; 
+            padding: 15px; 
+            background-color: #162447;
+            border-radius: 10px;
+            text-align: left; 
+        }
+
+        .course-item h3 {
+            color: #e94560;
+            margin-bottom: 10px;
+        }
+
+        .course-item ul {
+            margin-left: 20px; 
+            list-style-type: none; 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 10px; 
+        }
+
+        .course-item ul li {
+            padding: 5px; 
+        }
+
+        .friends {
+            margin: 30px 0;
+            font-size: 1.2em;
+            color: #e94560;
+        }
+
+        .friends a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .friends a:hover {
+            text-decoration: underline;
+            color: #e94560;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Camila Carrasco Coaquera</h1>
+        <p>Administración de Negocios</p>
+    </header>
+
+    <section class="about-me">
+        <h2>Acerca de mí</h2>
+        <p>Mi nombre es Camila Carrasco Coaquera. Soy estudiante de Administración de Negocios.</p>
+        <div class="info">
+            <div>
+                <p><strong>Nombre:</strong> Camila Carrasco Coaquera</p>
+                <p><strong>Edad:</strong> 20</p>
+                <p><strong>Correo:</strong> camila.carrasco@ucsp.edu.pe</p>
+            </div>
+            <div>
+                <p><strong>Años Estudiando:</strong> 3 años</p>
+                <p><strong>Ubicación:</strong> Arequipa, Perú</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2>Cursos</h2>
+        <div class="course-item">
+            <h3>Ciclo 1</h3>
+            <ul>
+                <li>Comunicación 1</li>
+                <li>Matemática básica</li>
+                <li>Fundamentación de administración</li>
+                <li>Economía general</li>
+                <li>Metodología del Estudio</li>
+                <li>Introducción a la Vida Universitaria</li>
+                <li>Contabilidad para administradores</li>
+            </ul>
+        </div>
+        <div class="course-item">
+            <h3>Ciclo 2</h3>
+            <ul>
+                <li>Comunicación 2</li>
+                <li>Álgebra y geometría</li>
+                <li>Derecho empresarial</li>
+                <li>Fundamentación de marketing</li>
+                <li>Pensamiento crítico e innovación</li>
+                <li>Introducción a la Filosofía</li>
+                <li>Apreciación musical</li>
+            </ul>
+        </div>
+        <div class="course-item">
+            <h3>Ciclo 3</h3>
+            <ul>
+                <li>Antropología filosófica y teológica</li>
+                <li>Lógica y argumentación</li>
+                <li>Apreciación literaria</li>
+                <li>Cálculo en una variable</li>
+                <li>Análisis financiero</li>
+                <li>Comportamiento del consumidor</li>
+            </ul>
+        </div>
+        <div class="course-item">
+            <h3>Ciclo 4</h3>
+            <ul>
+                <li>Estadísticas y probabilidades</li>
+                <li>Desarrollo de habilidades para el trabajo en equipo</li>
+                <li>Costos y planeamiento presupuestal</li>
+            </ul>
+        </div>
+        <div class="course-item">
+            <h3>Ciclo 5</h3>
+            <ul>
+                <li>Historia de la cultura occidental 1</li>
+                <li>Análisis, diseño y gestión de procesos</li>
+            </ul>
+        </div>
+        <div class="course-item">
+            <h3>Ciclo 6</h3>
+            <ul>
+                <li>Comportamiento organizacional</li>
+            </ul>
+        </div>
+        <div class="course-item">
+            <h3>Ciclo 7</h3>
+            <ul>
+                <li>Taller de investigación 1</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="friends">
+        <p>Mejor amiga: 
+            <a href="https://amigo1.com" target="_blank">Daniela Vega Ballenas</a> 
+        </p>
+        <p>Mi hermana: 
+            <a href="https://amigo3.com" target="_blank">Luciana Carrasco Coaquera</a>
+        </p>
+        <p>Amigos: 
+            <a href="https://amigo3.com" target="_blank">Salvador Ramos</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Camila Carrasco Coaquera. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
